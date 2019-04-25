@@ -1,0 +1,57 @@
+.btn__medium {
+  height: 38px;
+  border-radius: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  margin-left: 1rem;
+}
+.btn__medium--primary {
+  height: 38px;
+  border-radius: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  margin-left: 1rem;
+  color: #fff;
+  background-color: #008080;
+}
+.btn__medium--primary:hover:enabled {
+  background-color: #46a5a5;
+  cursor: pointer;
+}
+.btn__medium--primary:disabled {
+  opacity: 0.35;
+}
+.btn__medium--secondary {
+  height: 38px;
+  border-radius: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  margin-left: 1rem;
+  color: #111111;
+  border-color: #a3a3a3;
+}
+.btn__medium--secondary:hover:enabled {
+  color: #46a5a5;
+  border-color: #46a5a5;
+  cursor: pointer;
+}
+.btn__medium--secondary:disabled {
+  opacity: 0.35;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,40 @@
+@import './_variables.scss/spacing';
+@import './_variables.scss/color';
+@import './_variables.scss/buttons';
+
+.btn {
+  &__medium {
+    @include btn-med;
+
+    &--primary {
+      @include btn-med;
+      color: $white;
+      background-color: $teal-primary;
+    }
+
+    &--primary:hover:enabled {
+      background-color: $teal-surf;
+      cursor: pointer;
+    }
+
+    &--primary:disabled {
+      opacity: 0.35;
+    }
+
+    &--secondary {
+      @include btn-med;
+      color: $black;
+      border-color: $grey-silver
+    }
+
+    &--secondary:hover:enabled {
+      color: $teal-surf;
+      border-color: $teal-surf;
+      cursor: pointer;
+    }
+
+    &--secondary:disabled {
+      opacity: 0.35;
+    }
+  }
+}

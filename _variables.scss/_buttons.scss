@@ -1,0 +1,12 @@
+@mixin btn-med {
+  height: 38px;
+  border-radius: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  padding: 0 $space-default;
+  margin-left: $space-default;
+}
